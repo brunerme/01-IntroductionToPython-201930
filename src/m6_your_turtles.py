@@ -48,11 +48,10 @@ turtle_2=rg.SimpleTurtle('turtle')
 turtle_2.pen=rg.Pen('orange',3)
 turtle_2.speed=40
 size2=100
-for k in range(70):
+for k in range(4):
     turtle_2.draw_square(size2)
     turtle_2.pen_up()
     turtle_2.backward(80)
     turtle_2.right(90)
     turtle_2.pen_down()
 
-    window.close_on_mouse_click()
